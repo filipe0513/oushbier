@@ -482,6 +482,7 @@ footer a:hover {
 header {
   background: #faa41a;
   text-align: center;
+  border: 0;
 }
 
 header .white-logo, header .black-logo {
