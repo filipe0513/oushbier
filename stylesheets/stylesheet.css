@@ -478,6 +478,13 @@ footer a:hover {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
 
+@font-face {
+    font-family: 'Xilosa';
+    src: url('xilosa.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
 
 header {
   background: #faa41a;
@@ -503,7 +510,7 @@ header .black-logo {
 
 header h2 {
   color: white;
-  font-family: "Xilosa";
+  font-family: "Xilosa", sans-serif;
   font-size: 30px;
   margin: 0 auto 10px;
 }
