@@ -476,3 +476,110 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
+
+
+header {
+  background: #faa41a;
+  text-align: center;
+}
+
+header .white-logo, header .black-logo {
+  height: 72px;
+  width: 314px;
+  background-size: 314px 72px;
+
+  margin: auto;
+}
+
+header .white-logo {
+  background-image: url("../images/oushbier-white-logo.png");
+}
+
+header .black-logo {
+  background-image: url("../images/oushbier-black-logo.png");
+}
+
+header h2 {
+  color: white;
+  font-family: "Xilosa";
+  font-size: 30px;
+  margin: 0 auto 10px;
+}
+
+header div.crab {
+  width: 248px;
+  height: 160px;
+  background: transparent url(../images/crab.png) 0 0 no-repeat;
+  background-size: 248px 160px;
+
+  margin: auto;
+}
+
+#main-content h3:before, a {
+  color: #faa41a;
+}
+
+#main-content h3 {
+  font-family: "Xilosa";
+  font-size: 20px; 
+}
+
+pre code {
+  color: #DD8800;
+}
+
+.brewer {
+  float: left;
+  width: 200px;
+  text-align: center;
+  margin: auto;
+}
+
+.brewer .face {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-size: 100px;
+  margin: auto;
+}
+
+.brewer .face.fabio {
+  background-image: url("https://graph.facebook.com/fabioleite0/picture?width=200&height=200")
+}
+
+.brewer .face.filipe {
+  background-image: url("https://graph.facebook.com/filipe0513/picture?width=200&height=200")
+}
+
+.brewer .face.julio {
+  background-image: url("https://graph.facebook.com/JulioGilFreire/picture?width=200&height=200")
+}
+
+.brewer .face.luan {
+  background-image: url("https://graph.facebook.com/luandduarte/picture?width=200&height=200")
+}
+
+.brewer .face.luis {
+  background-image: url("https://graph.facebook.com/henriquesarmento/picture?width=200&height=200")
+}
+
+
+aside a.button.untappd {
+  background: #f39519 url('../images/untappd.png') 10px 13px no-repeat;
+  background-size: 50px 50px;
+}
+
+aside a.button.facebook {
+  background: #3b5999 url('../images/facebook.png') 5px 10px no-repeat;
+  background-size: 50px 50px;
+}
+
+aside a.button {
+  width: 130px;
+  padding-left: 70px;
+}
+
+.clear {
+  clear: both;
+  height: 0;
+}
