@@ -486,9 +486,9 @@ header {
 }
 
 header .white-logo, header .black-logo {
-  height: 72px;
-  width: 314px;
-  background-size: 314px 72px;
+  height: 69px;
+  width: 301px;
+  background-size: 301px 69px;
 
   margin: auto;
 }
@@ -522,7 +522,7 @@ header div.crab {
 }
 
 #main-content h3 {
-  font-family: "Xilosa";
+  font-family: "Xilosa", sans-serif;
   font-size: 20px; 
 }
 
