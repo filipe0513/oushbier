@@ -583,6 +583,11 @@ aside a.button.facebook {
   background-size: 50px 50px;
 }
 
+aside a.button.insta {
+  background: #3d739c url('../images/insta2.png') 10px 13px no-repeat;
+  background-size: 50px 50px;
+}
+
 aside a.button {
   width: 130px;
   padding-left: 70px;
